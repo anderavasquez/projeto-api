@@ -30,4 +30,3 @@ if st.button("Buscar cotação"):
         st.write(f"**Cotação atual (venda):** R$ {info['ask']}")
     else:
         st.error("Erro ao buscar a cotação.")
-print("Vamos criar um ambiente confortavel ")
